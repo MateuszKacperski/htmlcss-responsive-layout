@@ -4,3 +4,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+
+body{
+
+    font-family: 'Montserrat', 'Helvetica Neue' sans-serif;
+    background-color: #F6F5F3;
+}
+
+h1{
+
+    font-family: 'Nerko One', cursive;
+    color:#FF9614
+}
+
+
+/* Utils */
+
+.container{
+    max-width: 360px;
+    margin:0 auto;
+    border:2px dashed;
+}
+
+
+
+
+/* Header */
+
+
+.nav{
+    min-height: 60px;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+}
