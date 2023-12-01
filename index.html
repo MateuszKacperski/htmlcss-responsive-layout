@@ -13,7 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Nerko+One&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-
+    <!-- Importo Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Foglio di stile principale-->
     <link rel="stylesheet" href="css/style.css">
     <!-- Foglio di stile responsive-->
@@ -30,10 +31,87 @@
     <main>
         <!-- Creo sezione ricetta-->
         <section class="recepie container">
-            
+            <div class="recepie-title">
+                <h4>
+                    DOLCI E DESSERTS
+                </h4>
+                <h3>
+                    Tiramisù
+                </h3>
+            </div>
+            <div class="recepie-rating">
+                <span class="rate"><i class="fa-solid fa-star" style="color: #FF9614;"></i><b>4.6</b>/5</span><button class="rate-btn">RATE</button>
+                
+            </div>
+            <div class="recepie-card container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="recepie-video">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/JVT900H6s0g?si=G2epRVwi39YA33lD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                            <div class="recepie-kcal">
+                                <div class="recepie-kcal-info">
+                                    <button class="btn-kcal"></button>
+                                    <span class="recepie-kcal-colro"><i class="fa-solid fa-plus" style="color: #FF9614;"></i>info</span>
+                                    <div class="separatore">
 
+                                    </div>
+                                </div>
+                                <div class="recepie-type">
+                                    <span><i class="fa-solid fa-carrot"></i>VEGETARIANO</span>
+                                </div>
+                            </div>                                    
+                            <div class="recepie-info">
+                                <span><i class="fa-solid fa-blender" style="color: #FF9614;"></i>Difficoltà:<b>Facile</b></span>
+                                <span><i class="fa-solid fa-clock" style="color: #FF9614;"></i>Tempo:<b>40 min</b></span>
+                                <span><i class="fa-solid fa-chart-pie" style="color: #FF9614;"></i>Porzione per:<b>8 persone</b></span>
+                                <span><i class="fa-solid fa-euro-sign" style="color: #FF9614;"></i>Costo:<b>contenuto</b></span>
+                                <span><i class="fa-solid fa-thumbtack" style="color: #FF9614;"></i><b>Note</b>: +2 ore di riposo in frigo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social-networks">
+                <a class="btn-social" href="#"><i class="fa-brands fa-facebook" style="color: #1f5127;"></i></a>
+                <a class="btn-social" href="#"><i class="fa-brands fa-twitter" style="color: #20511f;"></i></a>
+                <a class="btn-social" href="#"><i class="fa-brands fa-instagram" style="color: #2c511f;"></i></a>
+                <a class="btn-social" href="#"><i class="fa-brands fa-pinterest" style="color: #27511f;"></i></a>
+                <a class="btn-social" href="#"><i class="fa-brands fa-youtube" style="color: #511f1f;"></i></a> 
+            </div>
+            <aside class="ads">
+                
+            </aside>
+            <section class="presentation">
+                <h2>PRESENTATION</h2>
+                <div class="separatore"></div>
+                <div class="presentation-img">
+                    <img src="img/tiramisu.jpg" alt="Tiramisù">
+                </div>
+                <p>
+                    Tiramisu is one of the cornerstones of Italian cuisine, one of the most loved and made desserts in the world. The origins of tiramisu are very uncertain and several cities claim its paternity. What we are certain of is that from 1980 onwards, the year in which this term was inserted into the Italian vocabulary, tiramisu has had enormous success! Today it is among the best-known Italian words abroad. But what makes tiramisu so special? We certainly love the fact that it is very simple to prepare, its mascarpone cream is irresistible, so tasty and velvety, interspersed with layers of ladyfingers soaked in coffee! There are those who love to flavor the syrup with Marsala and those who prefer to use other liqueurs, but we love it this way, in purity and we offer you the most classic version, perfect for every occasion!
+                </p>
+            </section>
         </section>
     </main>
+    <footer>
+        <div class="">
+            <div class="copyright">
+                <span>@ 2121 Giallo Booleano S.p.a.</span>
+                <span>Via tal dei tali, 10 - 88046 Lamezia Terme - VAT 43940293020</span>
+            </div>
+            <div class="site-info">
+                <ul>
+                    <li><a class="site-info-list" href="#">About us</a></li>
+                    <li><a class="site-info-list" href="#">Term of use</a></li>
+                    <li><a class="site-info-list" href="#">Privacy Policy</a></li>
+                    <li><a class="site-info-list" href="#">Cockie Policy</a></li>
+                    <li><a class="site-info-list" href="#">Disclimer</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>
