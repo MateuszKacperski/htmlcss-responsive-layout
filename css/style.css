@@ -36,7 +36,7 @@ h4{
 .container{
     max-width: 350px;
     margin:0 auto;
-    border:2px dashed;
+   
 }
 
 
@@ -58,13 +58,11 @@ h4{
 
 .recepie{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
 }
 
-.recepie-rating{
-    justify-content:flex-end;
-    align-items: center;
-}
 
 .rate-btn{
     font-size: 15px;
@@ -74,6 +72,25 @@ h4{
     border-radius: 12px;
 }
 
+
+
+.recepie-kcal-info{
+    display: flex;
+    flex-direction: column;
+}
+.recepie-kcal-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.separatore{
+    min-width: 2px;
+    border: 1px solid black;
+}
+
+.row{
+    display: flex;
+}
 
 .card{
     background-color: white;
