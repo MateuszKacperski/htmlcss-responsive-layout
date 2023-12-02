@@ -1,0 +1,47 @@
+
+/* tablet responsive */
+
+@media screen and (min-width: 768px){
+
+    h1{
+        text-align: start;
+    }
+
+    h3{
+        display: none;
+    }
+
+    .tablet{
+        display: unset;
+    }
+
+    .countainer{
+        max-width: 745px;
+        border: black solid 1px;
+    }
+
+    .recepie-countainer{
+        flex-direction: row;
+    }
+
+    .recepie-info{
+        justify-content: space-between;
+    }
+
+    .presentation-img{
+        float: left;
+        width:50%;
+    }
+
+    .img-paragraph{
+        padding: 20px;
+    }
+
+    .footer-list{
+        justify-content: space-around;
+    }
+
+    .ads{
+        display: unset;
+    }
+}

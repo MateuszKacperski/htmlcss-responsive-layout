@@ -51,7 +51,7 @@ ul{
 /* Utils */
 
 .container{
-    max-width: 350px;
+    max-width: 90%;
     margin:0 auto;
    
 }
@@ -147,7 +147,9 @@ ul{
     padding:10px;
 }
 
-
+.ads{
+    display: none;
+}
 
 
 .separatore{
@@ -164,6 +166,10 @@ ul{
     background-color: white;
 }
 
+
+.presentationo-img{
+    max-width: 40%;
+}
 
 
 /* Footer */
@@ -182,7 +188,7 @@ ul{
 
 .footer-list{
     display: flex;
-    justify-content: space-between;
+    
     padding-bottom:20px;
 }
 .site-info-list{
