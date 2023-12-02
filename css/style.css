@@ -25,15 +25,22 @@ h1{
     color:#FF9614
 }
 
+h2{
+    padding:20px 0;
+    margin:15px 0;
+}
+
 h3{
     padding: 5px;
     color: #4E3969;
+    margin:15px 0;
 }
 
 h4{
     padding: 5px;
     color: #B4B4B3;
     font-size: 15px;
+    margin:15px 0;
 }
 
 ul{
@@ -72,6 +79,7 @@ ul{
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
+    
 }
 
 
@@ -82,6 +90,7 @@ ul{
     color: white;
     border: #FF9614;
     border-radius: 12px;
+    margin:15px 0;
 }
 
 
@@ -91,7 +100,7 @@ ul{
     flex-direction: column;
     background-color: #F6F5F9;
     width: 90%;
-    margin:0 auto;
+    margin:15px auto;
     padding:10px;
     border-radius: 12px;
 }
@@ -101,29 +110,50 @@ ul{
 }
 
 
+.btn-kcal{
+    background-color: #7B69A2;
+    color: white;
+    padding: 5px 10px;
+    border-radius:12px;
+    border: transparent;
+}
+
+.recepie-kcal-color{
+    color: #F7972E;
+}
+
 .recepie-info{
     width: 90%;
-    margin:0 auto;
-    padding:10px;
+    margin:20px auto;
+    padding:20px;
+}
+
+
+.presentation p{
+    padding:20px 0;
 }
 
 /* social buttons */
+
+
 .social-networks{
-    
+    display: flex;
+    margin:20px 0;
 }
 
 .btn-social{
-    pagging:10px;
-    background-color: white;
     justify-content: space-between;
-
+    margin-left: 25px;
+    padding:10px;
 }
+
 
 
 
 .separatore{
     min-width: 2px;
     border: 1px solid black;
+    margin:20px 0;
 }
 
 .row{
@@ -140,4 +170,24 @@ ul{
 
 .footer-cont{
     background-color: #7C69A4;
+    margin: 20px 0;
 }
+
+
+.copyright{
+    color:white;
+    text-align: center;
+    padding:20px 0;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:20px;
+}
+.site-info-list{
+    color:white;
+ 
+}
+
+
